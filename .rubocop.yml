@@ -3,10 +3,12 @@ AllCops:
   Exclude:
     - "Guardfile"
     - "Rakefile"
+    - "index.rb"
     - "node_modules/**/*"
 
   DisplayCopNames: true
-  TargetRubyVersion: 3.1
+  TargetRubyVersion: 2.8
+
 Layout/LineLength:
   Max: 120
 Metrics/MethodLength:
